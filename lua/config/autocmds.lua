@@ -14,5 +14,5 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "c" },
-  command = "setlocal shiftwidth=8 tabstop=8",
+  command = "setlocal shiftwidth=8 tabstop=8 noexpandtab",
 })
